@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Inter&family=Montserrat&family=Mulish&display=swap');
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px 250px;
+}
+#hello {
+    font-family: "Black Ops One", cursive;
+}
+
+.social-logo>a svg{
+    width: 20px;
+    margin: 0px 10px;
+    cursor: pointer;    
+}
+
+.footer{
+    width: 65vw;
+    position: fixed;
+    bottom: 20px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+#theme-select{
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header{
+    width: 70vw;
+    /* position: fixed;
+    top: 100px; */
+    display: flex;
+    justify-content: space-between;
+    margin-top:100px;
+    margin-bottom: 20px;
+}
+.header svg{
+    width: 30px;
+}
+.profile-icon{
+    width: 20px;
+    cursor: pointer;
+}
+.header-left-div{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+#typecat-text{
+    font-family:"Black Ops One", cursive;
+}
+.timer{
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+.timer button{
+    border: none;
+    margin: 0px 5px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+#text-area-input{
+    border: none;
+    width: fit-content;
+    height: fit-content;
+    resize: none;
+    padding: 10px;
+    font-size: 24px;
+    animation: 2s ease 0s infinite normal none running blinking;
+}
+#text-area-input:focus{
+    outline: none;
+}

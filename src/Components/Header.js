@@ -1,5 +1,5 @@
 import React from "react";
-
+// rafce  --> shortcut to create component and export
 const Header = () => {
     return(
         <div className="header">

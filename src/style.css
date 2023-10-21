@@ -59,28 +59,19 @@ body{
 #typecat-text{
     font-family:"Black Ops One", cursive;
 }
-.timer{
-    width: 70vw;
+
+.row-1{
     display: flex;
     justify-content: space-between;
-    margin: 20px 0px;
 }
-.timer button{
+.timer-box button{
     border: none;
-    margin: 0px 5px;
-    cursor: pointer;
+    margin: 5px;
     background-color: transparent;
+    cursor: pointer;
 }
 
-#text-area-input{
-    border: none;
-    width: fit-content;
-    height: fit-content;
-    resize: none;
-    padding: 10px;
+.text-box{
     font-size: 24px;
-    animation: 2s ease 0s infinite normal none running blinking;
-}
-#text-area-input:focus{
-    outline: none;
+    font-family: monospace;
 }

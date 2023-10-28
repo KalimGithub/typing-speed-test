@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Inter&family=Montserrat&family=Mulish&display=swap');
 
 
+.main {
+    width: 100vw;
+    height: 100vh;
+    padding: 10px 10px;
+}
+
 
 
 * {
@@ -8,70 +14,117 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    margin: 0px 250px;
+
+body {
+    margin: 0px 0px;
 }
+
 #hello {
     font-family: "Black Ops One", cursive;
 }
 
-.social-logo>a svg{
+.social-logo>a svg {
     width: 20px;
     margin: 0px 10px;
-    cursor: pointer;    
+    cursor: pointer;
 }
 
-.footer{
+.footer {
     width: 65vw;
     position: fixed;
     bottom: 20px;
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: space-between;
 }
 
-#theme-select{
+#theme-select {
     padding: 10px;
     font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
 }
-.header{
-    width: 70vw;
+
+.theme-select {}
+
+
+.header {
+    width: 65vw;
+    align-items: center;
     /* position: fixed;
     top: 100px; */
     display: flex;
     justify-content: space-between;
-    margin-top:100px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    /* margin-bottom: 1px; */
 }
-.header svg{
+
+.header svg {
     width: 30px;
+
 }
-.profile-icon{
-    width: 20px;
+
+.profile-icon,
+.keyboard-icon {
+    width: 30px;
     cursor: pointer;
 }
-.header-left-div{
+
+.header-left-div {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 2rem;
+    align-items: center;
 }
 
-#typecat-text{
-    font-family:"Black Ops One", cursive;
+#typecat-text {
+    font-family: "Black Ops One", cursive;
 }
 
-.row-1{
+.row-1 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
-.timer-box button{
+
+.timer-box button {
     border: none;
     margin: 5px;
     background-color: transparent;
     cursor: pointer;
 }
 
-.text-box{
+.text-box {
     font-size: 24px;
     font-family: monospace;
+}
+
+
+
+.upper-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.refresh-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.no-of-words,
+.reset {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.no-of-words button,
+.reset button {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
 }
